@@ -1,4 +1,4 @@
-package com.example.counterapp_mvvm_practice.ui.theme
+package com.example.counterapp_compose_mvvm_practice.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

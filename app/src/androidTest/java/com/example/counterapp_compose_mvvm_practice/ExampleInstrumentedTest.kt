@@ -1,4 +1,4 @@
-package com.example.counterapp_mvvm_practice
+package com.example.counterapp_compose_mvvm_practice
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

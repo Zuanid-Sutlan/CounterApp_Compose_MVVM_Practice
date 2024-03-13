@@ -1,4 +1,4 @@
-package com.example.counterapp_mvvm_practice
+package com.example.counterapp_compose_mvvm_practice
 
 class CounterRepository {
     private var counter = CounterModel(0)

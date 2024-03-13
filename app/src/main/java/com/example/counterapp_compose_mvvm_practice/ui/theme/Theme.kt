@@ -1,4 +1,4 @@
-package com.example.counterapp_mvvm_practice.ui.theme
+package com.example.counterapp_compose_mvvm_practice.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -38,7 +38,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun CounterApp_MVVM_PracticeTheme(
+fun CounterApp_Compose_MVVM_PracticeTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,

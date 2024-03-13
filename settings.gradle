@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "CounterApp_MVVM_Practice"
+rootProject.name = "CounterApp_Compose_MVVM_Practice"
 include ':app'

@@ -1,4 +1,4 @@
-package com.example.counterapp_mvvm_practice
+package com.example.counterapp_compose_mvvm_practice
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -22,13 +22,13 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.counterapp_mvvm_practice.ui.theme.CounterApp_MVVM_PracticeTheme
+import com.example.counterapp_compose_mvvm_practice.ui.theme.CounterApp_Compose_MVVM_PracticeTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            CounterApp_MVVM_PracticeTheme {
+            CounterApp_Compose_MVVM_PracticeTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
@@ -95,7 +95,7 @@ fun CounterValue(count: Int) {
 @Preview(showBackground = true)
 @Composable
 fun Preview() {
-    CounterApp_MVVM_PracticeTheme {
+    CounterApp_Compose_MVVM_PracticeTheme {
 
     }
 }

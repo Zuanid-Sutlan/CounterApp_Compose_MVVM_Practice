@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.counterapp_mvvm_practice'
+    namespace 'com.example.counterapp_compose_mvvm_practice'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.counterapp_mvvm_practice"
+        applicationId "com.example.counterapp_compose_mvvm_practice"
         minSdk 24
         targetSdk 34
         versionCode 1
